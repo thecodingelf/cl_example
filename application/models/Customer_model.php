@@ -5,7 +5,7 @@ class Customer_model extends CI_model{
     $this->db->select('fname,lname');
     $this->db->from('Customers');
 
-    return $this->db->result_array();
+    return $this->db->get->result_array();
   }
 }
 
