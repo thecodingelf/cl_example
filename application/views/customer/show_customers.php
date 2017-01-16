@@ -2,6 +2,6 @@
 
 <?php
 
-print_r('customers');
+print_r($customers);
 
  ?>
